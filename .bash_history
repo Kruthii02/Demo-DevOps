@@ -35,3 +35,23 @@ chmod u+x file2.txt
 ll
 chmod g-w file2.txt
 git --version
+git config --global user.email "kruthika271@gmail.com"
+git config --global user.name "Kruthii02"
+git init
+cd /home/ec2-user/.git/
+echo "rect" >kruthika.txt
+ls
+ls -a
+git add .
+git clone https://github.com/Kruthii02/DevOps.git
+git clone https://github.com/Kruthii02/Demo-DevOps.git
+cd ..
+git add
+git add .
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kruthii02/Demo-DevOps.git
+git push -u origin main
+git credential-cache exit
+git push -u origin main
