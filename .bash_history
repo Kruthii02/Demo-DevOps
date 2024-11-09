@@ -55,3 +55,10 @@ git remote add origin https://github.com/Kruthii02/Demo-DevOps.git
 git push -u origin main
 git credential-cache exit
 git push -u origin main
+git pull origin main --rebase
+git add .
+git commit -m "first commit"
+git pull origin main --rebase
+git push -u origin main
+
+git push -u origin main
